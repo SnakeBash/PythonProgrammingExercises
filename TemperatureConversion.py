@@ -1,4 +1,4 @@
-#Defines conversion functions and runs asserts
+#Exercice 2 : defines conversion functions and runs asserts
 def ConvertToFahrenheit(degreesCelsius):
     return degreesCelsius * (9/5) + 32
 
@@ -15,7 +15,7 @@ def main():
     # Rounding errors cause a slight discrepancy:
     assert ConvertToCelsius(ConvertToFahrenheit(42)) == 42.00000000000001
 
-    print("All passed!")
+    print ("All tests passed!")
 
 if __name__ == '__main__':
     main()
