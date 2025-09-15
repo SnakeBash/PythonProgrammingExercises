@@ -1,4 +1,4 @@
-#Exercice 3 : determines is a number is odd or even.
+#Exercice 3 : determines is a number is odd or even
 
 def IsOdd(number):
     return True if number % 2 == 1 else False
